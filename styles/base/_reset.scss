@@ -1,0 +1,53 @@
+:root {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: $text-color;
+}
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+h1,h2 {
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+button:focus {
+  outline: none;
+}
+
+.background-gradient {
+  background-image: linear-gradient(#F9F9F9 50%, transparent 50%);
+}
+.background-gray {
+  background-color: #fcfcfc;
+}
+.section-padding {
+  padding: 13rem 0;
+}
+.mb-30 {
+  margin-bottom: 3rem !important;
+}
+.mt-20 {
+  margin-top: 2rem !important;
+}
+.mb-70 {
+  margin-bottom: 6.5rem !important;
+}

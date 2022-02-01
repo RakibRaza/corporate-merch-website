@@ -1,0 +1,55 @@
+/*-------------------------
+Redemption area
+--------------------------*/
+.redemption-area {
+  padding: 13rem 0;
+  background-color: rgba(252, 252, 252, .9);
+  h2 {
+    font-size: 4.8rem;
+    color: #272525;
+    span{
+      color: #7656BC;
+    }
+  }
+  .line {
+    background-color: #7656BC;
+  }
+  p{
+    color: $gray-color ;
+  }
+  .first-text{
+    margin: 3rem 0;
+  }
+  .redemtion-right {
+    .dashboard-img {
+      position: relative;
+      line-height: 1px;
+      border-radius: 23px;
+      box-shadow: 0px 146.269px 109.701px -21.9403px rgba(10, 4, 60, 0.08);
+      z-index: 1;
+      &::before {
+        position: absolute;
+        content: url("/images/home/card-shape-2.png");
+        height: 500px;
+        top: -20px;
+        left: 120px;
+        z-index: -1;
+      }
+    }
+  }
+} 
+
+@media (min-width: 1516px) {
+  .redemtion-right {
+    .dashboard-img {
+      &::after {
+        position: absolute;
+        content: url("/images/home/card-shape-1.png");
+        height: 500px;
+        right: -70px;
+        top: 20px;
+        z-index: -1;
+      }
+    }
+  }
+}

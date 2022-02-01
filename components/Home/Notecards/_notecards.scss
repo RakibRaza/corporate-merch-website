@@ -1,0 +1,67 @@
+/*-------------------------
+Notecards area
+--------------------------*/
+
+.notecards-area {
+  overflow: hidden;
+  padding: 10rem 0;
+  background-color: #f6f6f7;
+  .cards-img{
+    line-height: 1px;
+    margin-top: 6rem;
+    margin-bottom: -110px;
+    box-shadow: 32px 146.269px 109.701px rgba(10, 4, 60, 0.08);
+  }
+  .line {
+    margin: 2rem auto;
+    background-color: #FE778C;
+  }
+  .section-title {
+    h2 {
+      margin-bottom: 1.8rem;
+      span {
+        color: #FE778C;
+      }
+    }
+    p {
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+      margin-bottom: 4.5rem;
+      color: #939292;
+    }
+  }
+  .dash-btn {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    color: $white;
+    background-color: #55B4E4;
+    transition: all .5s ease;
+    &:hover {
+      background-color: #1489C5;
+    }
+  }
+  .single-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 1.5rem 0 1.5rem 1rem;
+    margin-top: 4rem;
+    box-shadow: 90px 85px 100px rgba(0, 0, 0, 0.06);
+    background-color: $white;
+    .icon {
+      line-height: 1px;
+      margin-right: 1rem;
+    }
+    h5 {
+      flex: 1;
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  }
+}

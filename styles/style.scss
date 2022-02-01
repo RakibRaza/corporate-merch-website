@@ -1,0 +1,61 @@
+
+
+
+
+@import "utils/variables";
+@import "base/reset";
+@import "base/typography";
+@import "components/buttons";
+@import "utils/helpers";
+@import "pages/features";
+@import "pages/use-cases";
+@import "pages/products";
+@import "pages/cart";
+// Home SCSS
+@import "../components/Common/Loader/loader";
+@import "../components/Common/Header/header";
+@import "../components/Home/Banner/banner";
+@import "../components/Home/Dashboard/dashboard";
+@import "../components/Home/EnterpriseTeams/enterprise-teams";
+@import "../components/Home/Features/features";
+@import "../components/Home/Notecards/notecards";
+@import "../components/Home/Procurement/procurement";
+@import "../components/Home/Redemption/redemption";
+@import "../components/Home/Shipping/shipping";
+@import "../components/Home/Stores/stores";
+@import "../components/Home/Teams/teams";
+@import "../components/Home/Testimonial/testimonial";
+@import "../components/Common/Footer/footer";
+@import "../components/Helpers/ScrollToTop/scroll";
+// Features SCSS
+@import "../components/Common/Breadcrumb/breadcrumb";
+@import "../components/Features/Dashboard/swah-dashboard";
+@import "../components/Features/Brands/brands";
+@import "../components/Features/ECommerce/e-commerce";
+@import "../components/Features/Animation/animation";
+@import "../components/Features/Gift/gift";
+@import "../components/Features/Storage/storage";
+@import "../components/Features/NoteCard/note-card";
+@import "../components/Features/Process/process";
+@import "../components/Features/Purchasing/purchasing";
+@import "../components/Features/Integration/integration";
+// Our Value SCSS
+@import "../components/OurValue/Team/team";
+@import "../components/OurValue/Performance/performance";
+// Pricing Value SCSS
+@import "../components/Pricing/FAQ/faq";
+@import "../components/Pricing/Notes/notes";
+// Use Cases SCSS
+@import "../components/UseCases/FinanceSolution/finance";
+@import "../components/UseCases/EmployeeExperience/employee";
+@import "../components/UseCases/Swag/swag";
+// product SCSS
+@import "../components/Products/ProductSidebar/sidebar";
+@import "../components/Products/RangeSlider/range-slider";
+@import "../components/Products/Product/product";
+@import "../components/SingleProduct/MightLike/might-like";
+@import "../components/SingleProduct/ProductDetails/details";
+@import "../components/cart/OrderDetails/deatails";
+@import "../components/cart/ProfileInfo/profile-info";
+// Responsive SCSS
+@import "responsive";

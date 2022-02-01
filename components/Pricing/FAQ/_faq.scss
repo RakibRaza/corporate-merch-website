@@ -1,0 +1,85 @@
+/*-------------------------
+FAQ area
+--------------------------*/
+.faq-section {
+  padding-top: 12rem;
+  padding-bottom: 28rem;
+  .faq-title-area {
+    .title-top-text {
+      font-size: 1.3rem;
+      text-transform: capitalize;
+      font-weight: 600;
+      color: #55B4E4;
+    }
+    .title {
+      font-size: 4.2rem;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin: 1.2rem;
+    }
+    .subtitle  {
+      margin-bottom: 7rem;
+      color: #353945;
+      span {
+        color: #55B4E4;
+      }
+    }
+  } 
+}
+.primary-tab {
+  .nav {
+    justify-content: center;
+    .nav-link {
+      font-size: 1.4rem;
+      text-transform: capitalize;
+      font-weight: 600;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0 1.2rem;
+      border-radius: 100px;
+      color: #777E90;
+      &:hover {
+        color: #FCFCFD;
+        background-color: #55B4E4;
+      }
+      &.active {
+        color: #FCFCFD;
+        background-color: #55B4E4;
+      }
+    }
+  }
+  .nav.nav-tabs {
+    border: none;
+    margin-bottom: 8rem;
+  }
+  .accordion {
+    .accordion-button {
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 3rem 0;
+      border-top: 1px solid #E6E8EC;
+      color: #23262F;
+      background-color: transparent;
+    }
+  } 
+  .accordion-item {
+    border: none;
+    background-color: transparent;
+  }
+  .accordion-button {
+    &:focus {
+      box-shadow: none;
+    }
+    &:not(.collapsed) {
+      box-shadow: none;
+    }
+  }
+  .accordion-body {
+    p {
+      color: #777E90;
+      margin-bottom: 2.8rem;
+    }
+  } 
+} 
+
+

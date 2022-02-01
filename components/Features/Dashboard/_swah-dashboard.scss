@@ -1,0 +1,20 @@
+/*-------------------------
+swah-dashboard area
+--------------------------*/
+.swah-dashboard {
+  .features-title {
+    .line {
+      background-color: #FFDA13;
+    }
+  } 
+  .line {
+    background-color: #55B4E4;
+  }
+}
+@media(max-width: 991px) {
+  .swah-dashboard {
+    .swah-right {
+      margin-top: 4rem;
+    }
+  }
+}

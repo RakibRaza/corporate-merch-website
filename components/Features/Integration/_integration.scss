@@ -1,0 +1,159 @@
+/*-------------------------
+#.integration
+--------------------------*/
+.integration {
+  background: #ffffff url('/images/features/bg-circle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 13rem 0;
+  .title {
+    margin-bottom: 1.5rem;
+  }
+  .sub-title {
+    font-size: 1.9rem;
+    margin-bottom: 8rem;
+    color: $black;
+  }
+  .integration-wrap {
+      position: relative;
+      height: 420px;
+      a {
+          display: inline-block;
+          position: absolute;
+          border-radius: 50%;
+          filter: drop-shadow(12px 34px 50px rgba(49, 89, 211, 0.12));
+          overflow: hidden;
+          img {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              transition: all .5s linear;
+          }
+          &:hover {
+              img {
+                  transform: scale(1.1);
+              }
+          }
+          &:nth-child(1) {
+              width: 83px;
+              height: 83px;
+              left: 20%;
+              top: 20%
+          }
+          &:nth-child(2) {
+              width: 83px;
+              height: 83px;
+              right: 25%;
+              bottom: 10%
+          }
+          &:nth-child(3) {
+              width: 104px;
+              height: 104px;
+              
+              right: 5%;
+              top: 10%
+          }
+          &:nth-child(4) {
+              width: 168px;
+              height: 168px;
+              left: 0;
+              bottom: 3%;
+          }
+        
+          &:nth-child(5) {
+              width: 180px;
+              height: 180px;
+              right: 0;
+              bottom: 0;
+          }
+          &:nth-child(6) {
+              width: 178px;
+              height: 180px;
+              left: 0;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              margin: 0 auto;
+              box-shadow: 6px 28px 50px rgba(49, 89, 211, 0.19);
+              border-radius: 5.8rem;
+          }
+      }
+      .dot-shape {
+          display: inline-block;
+          position: absolute;
+          border-radius: 50%;
+          &:nth-child(7) {
+              width: 13px;
+              height: 13px;
+              background-color: #0066D9;
+              left: 3%;
+              top: 40%
+          }
+          &:nth-child(8) {
+              width: 21px;
+              height: 21px;
+              background-color: #FFAA45;
+              left: 30%;
+              top: 58%
+          }
+          &:nth-child(9) {
+              width: 9px;
+              height: 9px;
+              background-color: #EA4335;
+              right: 25%;
+              top: 20%
+          }
+          &:nth-child(10) {
+              width: 13px;
+              height: 13px;
+              background-color: #0066D9;
+              right: 20%;
+              bottom: 20%
+          }
+      }
+  }
+}
+@media (max-width: 991px) {
+  .integration .integration-wrap a:nth-child(5) {
+      width: 100px;
+      height: 100px;
+  }
+  .integration .integration-wrap a:nth-child(4) {
+      width: 100px;
+      height: 100px;
+  }
+  .integration .integration-wrap a:nth-child(6) {
+      width: 130px;
+      height: 130px;
+  }
+  .integration .integration-wrap a:nth-child(3) {
+      width: 70px;
+      height: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .integration .integration-wrap a:nth-child(4) {
+      width: 70px;
+      height: 70px;
+  }
+  .integration .integration-wrap a:nth-child(5) {
+      width: 70px;
+      height: 70px;
+  }
+  .integration .integration-wrap a:nth-child(2) {
+      width: 50px;
+      height: 50px;
+  }
+  .integration .integration-wrap a:nth-child(3) {
+      width: 45px;
+      height: 45px;
+  }
+  .integration .integration-wrap a:nth-child(1) {
+      width: 55px;
+      height: 55px;
+  }
+  .integration .integration-wrap .dot-shape:nth-child(8) {
+      left: 20%;
+      top: 69%;
+  }
+}

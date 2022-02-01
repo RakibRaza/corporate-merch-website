@@ -1,0 +1,12 @@
+.storage-area {
+  .line {
+    background-color: #FF6628;
+  }
+}
+@media(max-width: 991px) {
+  .storage-area {
+    .storage-right {
+      margin-top: 4rem;
+    }
+  }
+}

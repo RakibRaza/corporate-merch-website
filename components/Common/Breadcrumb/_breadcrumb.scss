@@ -1,0 +1,43 @@
+/*-------------------------
+ breadcrumb area
+--------------------------*/
+.breadcrumb-area {
+  background-color: $primary-color;
+  padding: 7.8rem 0;
+  .page-title{
+    font-size: 4.8rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: $white;
+  }
+  .breadcrumb-page {
+    li {
+      display: inline-block;
+      position: relative;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: 0 1rem;
+      color: $white;
+      a {
+        color: $white;
+      }
+      &:first-child {
+        &::before {
+          display: none;
+        }
+      }
+      &::before {
+        position: absolute;
+        content: "/";
+        left: -1.4rem;
+        top: 2px;
+        color: $white;
+      }
+      &.current-page {
+        color: rgba(255, 255, 255, .5);
+      }
+    }
+  }
+}
+

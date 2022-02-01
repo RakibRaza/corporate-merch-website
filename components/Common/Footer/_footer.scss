@@ -1,0 +1,112 @@
+/*-------------------------
+footer area
+--------------------------*/
+.footer-area {
+  position: relative;
+  background-color: $primary-color;
+  padding-top: 20rem;
+  .footer-top {
+    background-color: #7656BC;
+    border-radius: 10px;
+    margin-top: -40rem;
+    .section-title {
+      padding: 4.5rem 5rem;
+      .line {
+        background-color: #FFDA13;
+      }
+      h2 {
+        margin-bottom: 3rem;
+        color: $white;
+        span {
+          color: #F0D338;
+        }
+      }
+      .white-btn {
+        color: #ffffff;
+        background-color: #55B4E4;
+      }
+    }
+    .cta-img{
+      line-height: 1px;
+      padding-right: 2rem;
+      padding-top: 4rem;
+    }
+  }
+  .footer-bottom {
+    margin-top: 16rem;
+    padding: 6rem 0;
+    border-top: 1px solid #32337B;
+    border-bottom: 1px solid #32337B;
+    .footer-logo{
+      margin-bottom: 2.5rem;
+    }
+    .title{
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 3rem;
+      color: $white;
+    }
+    .widget-link {
+      a{
+        display: inline-block;
+        text-transform: capitalize;
+        margin-bottom: 1.6rem;
+        color: #ABABAB;
+      }
+    }
+  }
+  .footer-text{
+    font-size: 1.5rem;
+    color: #ABABAB;
+  }
+  .touch {
+    p{
+      margin-top: 3rem;
+      color: $white;
+      .email{
+        color: #FE778C;
+      }
+    }
+  }
+  .social-icon {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: 1px solid $white;
+    transition: all .5s ease;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 4rem 0;
+    color: #777777;
+  } 
+  .shape-one {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 1px;
+   }
+   .shape-two {
+    position: absolute;
+    right: 180px;
+    bottom: 0;
+    line-height: 1px;
+   }
+   .shape-three {
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    line-height: 1px;
+   }
+   .shape-four {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    line-height: 1px;
+   }
+} 

@@ -1,0 +1,49 @@
+.animation-area {
+  padding: 10rem 0;
+  .animations {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .animation {
+      margin-bottom: 3rem;
+      &__box {
+        width: 198px;
+        height: 198px;
+        border-radius: 12px;
+        background-color: #C4C4C4;
+      }
+      &__title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        color: #19191B;
+      }
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 5px;
+      top: 100px;
+      border-top: 5px dotted #E7E7E7;
+      z-index: -1;
+    }
+  }
+}
+@media (max-width:1199px) {
+  .animations {
+    &::after {
+      display: none;
+    }
+  }
+}
+@media (max-width:450px) {
+  .animations {
+    .animation {
+      margin: 0 auto;
+    }
+  }
+}

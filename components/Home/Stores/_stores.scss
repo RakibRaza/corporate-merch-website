@@ -1,0 +1,64 @@
+
+/*-------------------------
+stores area
+--------------------------*/
+.e-commerce-area {
+  .line {
+    background-color: #55B4E4;
+  }
+  padding: 16rem 0; 
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 4.5rem;
+    span {
+      color: #55B4E4;
+    }
+  }
+  .e-com-left {
+    display: flex;
+    align-items: flex-start;
+    .box {
+      margin: 0 .5rem;
+    }
+    .job-1 {
+      border-radius: 10px;
+      box-shadow: 0px 28.4118px 54.3529px rgba(176, 183, 195, 0.14);
+    }
+    .job-2 {
+      line-height: 1px;
+      margin-bottom: 3rem;
+      border-radius: 15px;
+      box-shadow: 0px 54px 100px rgba(10, 4, 60, 0.1);
+    }
+    .job-3 {
+      max-width: 315px;
+      border-radius: 10px;
+      box-shadow: 0px 28.4118px 54.3529px rgba(176, 183, 195, 0.14);
+    }
+  }
+}
+.single-stores {
+  display: flex;
+  margin-bottom: 5rem;
+  .icon {
+    margin-right: 3rem;
+  }
+  .icon-two {
+    margin-right: 4.3rem;
+  }
+  .store-info {
+    flex: 1;
+    h4 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+

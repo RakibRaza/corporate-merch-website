@@ -1,0 +1,110 @@
+/*-------------------------
+Testimonial area
+--------------------------*/
+.testimonial-area  {
+  position: relative;
+  background-color: #fcfcfc;
+  padding-bottom: 33rem;
+  .shape-1 {
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+  }
+  .line {
+    margin: 2rem auto;
+    background-color: #7656BC;
+  }
+  .section-title {
+    h2 {
+      margin-bottom: 3rem;
+      span {
+        color: #7656BC;
+      }
+    }
+    .sub-title {
+      margin-bottom: 5rem;
+      color: #777777;
+    }
+  } 
+  .testimonial-slide {
+    .single-slide {
+      padding: 8rem 3rem;
+      clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
+      background-color: #FFEBEE;
+      .person-img {
+        width: 100px;
+        height: 100px;
+        margin: 2rem auto;
+        border-radius: 50%;
+        border: 6px solid #FE778C;
+      }
+      .quote {
+        font-size: 2.4rem;
+        line-height: 4.4rem;
+        margin-bottom: 3rem;
+        color: #777777;
+      }
+      .person-info {
+        .name {
+          font-weight: 600;
+          margin-bottom: 1.3rem;
+          color: var(--black);
+        }
+        .title {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+          color: #555555;
+        }
+        svg {
+          margin: .7rem;
+        }
+      }
+      &.bg-1 {
+        background-color: #EAE6F5;
+        .person-img {
+          border-color: #7656BC;
+        }
+      } 
+      &.bg-2 {
+        background-color: #FFF9DC;
+        .person-img {
+          border-color: #FFDA13;
+        }
+      } 
+    } 
+  } 
+  .slick-slide {
+    padding-bottom: 5rem;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .slick-dots {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+    li {
+      display: inline-block;
+      button {
+        display: inline-block;
+        line-height: 1;
+        font-size: 0;
+        width: 10rem;
+        height: 3px;
+        background: #E5E5E5;
+        border: none;
+        transition: all 0.5s linear;
+        &:hover {
+          background: $black;
+        }
+      }
+      &.slick-active {
+        button {
+          background-color: $black;
+        }
+      }
+    }
+  }
+}
+

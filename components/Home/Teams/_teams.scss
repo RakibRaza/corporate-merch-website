@@ -1,0 +1,43 @@
+
+/*-------------------------
+Teams area
+--------------------------*/
+.teams-area {
+  padding-bottom: 16rem;
+}
+.single-team {
+  display: flex;
+  margin-top: 10rem;
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-right: 3rem;
+    background-color: #E9F5FC;
+    &.bg-1 {
+      background-color: #FCEDE9;
+    }
+    &.bg-2 {
+      background-color: #EBF5FF;
+    }
+    &.bg-3 {
+      background-color: #FCE4F8;
+    }
+    &.bg-4 {
+      background-color: #DCFEF5;
+    }
+  }
+  .team-right {
+    flex: 1;
+    h3 {
+      font-size: 28px;
+      font-weight: 600;
+     }
+     p {
+      line-height: 3rem;
+     }
+   }
+}

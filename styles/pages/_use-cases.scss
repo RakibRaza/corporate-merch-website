@@ -1,0 +1,45 @@
+.bg-gray {
+  background-color: #F9FAFB;
+}
+.use-case-title {
+  font-size: 4.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.use-case-top-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  color: #55B4E4;
+}
+.shape {
+  position: relative;
+  line-height: 1px;
+  &__box {
+     position: absolute;
+     top: 80px;
+     left: 90px;
+     filter: drop-shadow(0px 25px 60px rgba(0, 0, 0, 0.12));
+  }
+}
+.point {
+  display: flex;
+  align-items: center;
+  margin-top: 4.5rem;
+  &__number {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid #E1ECF0;
+  }
+  &__text {
+    flex: 1;
+  }
+}

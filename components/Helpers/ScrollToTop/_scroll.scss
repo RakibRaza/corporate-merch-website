@@ -1,0 +1,29 @@
+/*-------------------------
+scrollUp
+--------------------------*/
+#scrollUp {
+  background: $black;
+  bottom: 20px;
+  color: $white;
+  font-size: 2rem;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  z-index: 1000;
+  border-radius: 5px;
+  .icon {
+    position: relative;
+    bottom: 3px;
+  }
+  &:hover {
+    background: $primary-color;
+
+  }
+}
